@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">双扣算分器</string>
+    <string name="winner">赢家</string>
+    <string name="user1">玩家(1)</string>
+    <string name="user2">玩家(2)</string>
+    <string name="user3">玩家(3)</string>
+    <string name="user4">玩家(4)</string>
+    <string name="lose">输家</string>
+    <string name="s_5">5扇</string>
+    <string name="s_6">6扇</string>
+    <string name="s_7">7扇</string>
+    <string name="s_8">8扇</string>
+    <string name="s_9">9扇</string>
+    <string name="s_10">10扇</string>
+    <string name="s_11">11扇</string>
+    <string name="s_12">12扇</string>
+    
+    <string name="s_6_g">6扇贡献</string>
+    <string name="s_7_g">7扇贡献</string>
+    <string name="s_8_g">8扇贡献</string>
+    <string name="s_9_g">9扇贡献</string>
+    <string name="s_10_g">10扇贡献</string>
+    <string name="s_11_g">11扇贡献</string>
+    <string name="s_12_g">12扇贡献</string>
+    
+    <string name="s_p">平扣</string>
+    <string name="s_d">单扣</string>
+    <string name="s_s">双扣</string>
+    
+    <string name="set">设置</string>
+    <string name="calculate">计算</string>
+    <string name="systemset">系统设置</string>
+    <string name="queryset">统计查询</string>
+    <string name="save">保存</string>
+    <string name="close">关闭</string>
+    <string name="clear">清空</string>
+    <string name="ok">确定</string>
+    <string name="defaultstring">默认</string>
+    <string name="result">战果</string>
+    <string name="remark">图片备注</string>
+    <string name="basecount">基础分</string>
+    <string name="gxcount">贡献分</string>
+    <string name="max">最高翻至</string>
+    <string name="about">关于</string>
+    
+    <string-array name="slevel">
+        <item>不限</item>
+        <item>5扇</item>
+        <item>6扇</item>
+        <item>7扇</item>
+        <item>8扇</item>
+        <item>9扇</item>
+        <item>10扇</item>
+        <item>11扇</item>
+        <item>12扇</item>
+    </string-array>
+</resources>

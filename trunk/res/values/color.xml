@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<color name="mainbgcolor">#fff5f5f5</color><!--主窗口背景色 -->
+    <color name="linecolor">#d9d9d9</color>    
+    <color name="titlebar_bg">#3a9cc4</color>    
+	<color name="red">#FF0000</color>
+	<color name="cacheColor">#00000000</color><!--透明 -->    
+	<color name="cacheColorb">#b0000000</color><!--半透明 -->
+	<color name="cacheColord">#d0000000</color><!--半透明 -->
+	
+    <color name="blue_normal">#4ab5e1</color>
+    <color name="blue_pressed">#3a9cc4</color>
+    <color name="blue_focused">#3a9cc4</color>    
+    
+    <color name="text_normal">#E5E5E5</color>
+    <color name="text_pressed">#38AE9B</color>
+    <color name="text_focused">#38AE9B</color> 
+    
+    <color name="list_item_menu_normal">#00000000</color> 
+    <color name="list_item_menu_pressed">#b0000000</color>
+    <color name="list_item_normal">#ffffff</color>
+    <color name="list_item_pressed">#e6e6e6</color>
+</resources>

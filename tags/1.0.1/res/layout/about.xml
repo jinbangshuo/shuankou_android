@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg">
+	<TextView
+		android:id="@+id/lblabout1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="@drawable/red"
+		android:textSize="15dip"
+		android:padding="12dip"
+		android:text="开发人：金邦铄" 
+		android:gravity="left"/>
+	<TextView
+		android:id="@+id/lblabout2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="@drawable/red"
+		android:textSize="15dip"
+		android:padding="12dip"
+		android:text="QQ：12554935" 
+		android:gravity="left"/>
+	<TextView
+		android:id="@+id/lblabout3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="@drawable/red"
+		android:textSize="15dip"
+		android:padding="12dip"
+		android:text="E-Mail：jinbangshuo@163.com" 
+		android:gravity="left"/>
+</LinearLayout>

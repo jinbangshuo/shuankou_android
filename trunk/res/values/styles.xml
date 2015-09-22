@@ -1,0 +1,93 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Anim_style2" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>
+    </style>
+
+    <style name="AnimFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/hold</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="style_title_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:background">@drawable/btn_style_title</item>
+    </style>
+
+    <style name="title_bar_tips">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="style_chkbox">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16.0sp</item>
+    </style>
+
+    <style name="style_btn_blue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_style_blue</item>
+    </style>
+
+    <style name="style_line_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:background">@color/linecolor</item>
+    </style>
+
+    <style name="style_line_v">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/linecolor</item>
+    </style>
+
+    <style name="list_style_noline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cacheColorHint">@color/cacheColor</item>
+        <item name="android:childDivider">@color/cacheColor</item>
+        <item name="android:divider">@color/cacheColor</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:listSelector">@color/cacheColor</item>
+    </style>
+
+    <style name="list_style_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cacheColorHint">@color/cacheColor</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:listSelector">@color/cacheColor</item>
+        <item name="android:childDivider">@color/linecolor</item>
+        <item name="android:divider">#A3B3B9</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:padding">1.0dip</item>
+    </style>
+
+    <style name="style_edittext">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/bg_style_edit_round</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

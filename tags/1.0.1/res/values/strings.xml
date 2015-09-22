@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">双扣算分器(Bate2)</string>
+    <string name="winner">赢家</string>
+    <string name="winner1">头家(1)</string>
+    <string name="winner2">头家(2)</string>
+    <string name="lose">输家</string>
+    <string name="lose1">下家(1)</string>
+    <string name="lose2">下家(2)</string>	
+    <string name="s_5">5扇</string>
+    <string name="s_6">6扇</string>
+    <string name="s_7">7扇</string>
+    <string name="s_8">8扇</string>
+    <string name="s_9">9扇</string>
+    <string name="s_10">10扇</string>
+    <string name="s_11">11扇</string>
+    <string name="s_12">12扇</string>
+    
+    <string name="s_p">平扣</string>
+    <string name="s_d">单扣</string>
+    <string name="s_s">双扣</string>
+    
+	<drawable name="black">#000000</drawable>
+    <drawable name="red">#E10601</drawable>
+    
+    <string name="set">设置</string>
+    <string name="calculate">计算</string>
+    <string name="exit">退出</string>
+    <string name="clear">清空</string>
+    <string-array name="slevel">
+        <item>不限</item>
+        <item>5扇</item>
+        <item>6扇</item>
+        <item>7扇</item>
+        <item>8扇</item>
+        <item>9扇</item>
+        <item>10扇</item>
+        <item>11扇</item>
+        <item>12扇</item>
+    </string-array>
+</resources>
